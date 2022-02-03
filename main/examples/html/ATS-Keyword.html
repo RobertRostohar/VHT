@@ -1,11 +1,12 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- HTML header for doxygen 1.9.2-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>Micro speech example</title>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Examples: ATS-Keyword Example</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="extra_stylesheet.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <script type="text/javascript" src="printComponentTabs.js"></script>
@@ -22,6 +23,8 @@
   $(document).ready(function() { init_search(); });
 /* @license-end */
 </script>
+<link href="$extra_stylesheet" rel="stylesheet" type="text/css" />
+<link href="extra_stylesheet.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -29,13 +32,14 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 55px;">
-  <td style="padding: 1em;"id="projectlogo"><img alt="Logo" src="arm.png"/></td>
+  <td id="projectlogo" style="padding: 1em;"><img alt="Logo" src="arm.png"/></td>
   <td style="padding-left: 2em; padding-bottom: 1em;padding-top: 1em;">
    <div id="projectname">Virtual Hardware
    &#160;<span id="projectnumber">Version 0.2 - beta</span>
    </div>
    <div id="projectbrief">Examples Projects and GitHub Repositories</div>
   </td>
+  <!--END !PROJECT_NAME-->
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
           <img id="MSearchSelect" src="search/mag_sel.svg"
@@ -84,7 +88,7 @@ var searchBox = new SearchBox("searchBox", "search",'Search','.html');
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('mspeech.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('ATS-Keyword.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -103,12 +107,16 @@ $(document).ready(function(){initNavTree('mspeech.html',''); initResizable(); })
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Micro speech example </div></div>
+  <div class="headertitle"><div class="title">ATS-Keyword Example </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p ><a class="anchor" id="md_src_mspeech"></a> The Micro speech program analyzes an audio input with a voice recognition model that can detect 2 keywords - <b>yes</b> and <b>no</b>. The recognized keywords are then printed into a serial interface. The voice recognition model is implemented using <a href="https://www.tensorflow.org/lite/microcontrollers">TensorFlow Lite for Microcontrollers</a>.</p>
-<p >GitHub repository <a href="https://github.com/arm-software/VHT-TFLmicrospeech"><b>github.com/arm-software/VHT-TFLmicrospeech</b></a> contains an implementation supporting Arm Virtual Hardware Targets (VHT) as well as real hardware boards. It demonstrates how to use the processor and peripheral abstraction layers for simpler software portability across different targets. The example repository contains documentation with running instructions.</p>
-<p >Sections <a href="../../infrastructure/html/run_ami_local.html"><b>Run AMI with Local Host</b></a> and <a href="../../infrastructure/html/run_ami_github.html"><b>Run AMI with GitHub Actions</b></a> explain how to build and run an application project on Arm Virtual Hardware and use the Micro speech example as a reference. </p>
+<div class="textblock"><p ><a class="anchor" id="md_src_ATS_Keyword"></a> todo add overview description of example</p>
+<h1><a class="anchor" id="Build"></a>
+Build Application</h1>
+<p >todo describe or provide links</p>
+<h1><a class="anchor" id="VHT"></a>
+Run on Virtual Hardware</h1>
+<p >todo explain execution on VHT </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
@@ -116,7 +124,7 @@ $(document).ready(function(){initNavTree('mspeech.html',''); initResizable(); })
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="footer">
-	Copyright &copy; 2021 Arm Limited (or its affiliates). All rights reserved.
+	Copyright &copy; 2021-2022 Arm Limited (or its affiliates). All rights reserved.
 	<!-- Use script below for auto-inserting date, project name, version, etc  -->
 	<!-- <script type="text/javascript">
         writeFooter.call(this);
